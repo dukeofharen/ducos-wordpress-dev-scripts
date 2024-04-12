@@ -10,4 +10,5 @@ const DWD_PLUGIN_FILE = __FILE__;
 require_once __DIR__ . "/helpers.php";
 if ( DwdHelpers::getConstantOrDefault( "DWD_ENABLE", false ) ) {
 	require_once __DIR__ . "/smtp.php";
+	require_once __DIR__ . "/admin-user.php";
 }

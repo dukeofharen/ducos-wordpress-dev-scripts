@@ -1,5 +1,4 @@
 <?php
-
 class DwdHelpers {
 	public static function getConstantOrDefault( $constant, $default ) {
 		if ( ! defined( $constant ) ) {
